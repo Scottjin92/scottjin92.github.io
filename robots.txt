@@ -1,0 +1,51 @@
+# robots.txt — Roger Yue / Creative Research Ltd.
+# Goal: be found AND cited by search engines and AI answer engines.
+# Replace the Sitemap URL below with your real domain after deploying.
+
+# Default: allow everything
+User-agent: *
+Allow: /
+
+# --- AI search / retrieval crawlers (these fetch pages to cite in answers) ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- AI training crawlers (allowed on purpose — maximises future visibility) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# --- Known abusive crawler that ignores limits — blocked ---
+User-agent: Bytespider
+Disallow: /
+
+Sitemap: https://www.rogeryue.com/sitemap.xml
