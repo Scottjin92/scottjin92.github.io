@@ -48,4 +48,4 @@ Allow: /
 User-agent: Bytespider
 Disallow: /
 
-Sitemap: https://www.rogeryue.com/sitemap.xml
+Sitemap: https://scottjin92.github.io/sitemap.xml
